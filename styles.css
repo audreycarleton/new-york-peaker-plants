@@ -50,7 +50,8 @@ body {
 .georgia-font {
     font-family: georgia, serif;
     opacity: 100%;
-    padding-left: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .header-font {
@@ -81,6 +82,7 @@ h2 {
     /*max-width: 732px;*/
     width: 100%;
     margin: 3%;
+    display: flex;
 }
 
 .grey-text {
@@ -111,9 +113,12 @@ h2 {
     font-family: georgia serif;
 }
 
+div.parent {
+    display: flex;
+}
+
 .center {
     display: flex;
-    display: block;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10px;
@@ -124,7 +129,6 @@ h2 {
 }
 
 .left-box-real {
-    display: flex;
     flex-direction: column;
     /*  flex-wrap: wrap;*/
     position: absolute;
@@ -143,7 +147,6 @@ h2 {
 }
 
 .middle-text-box {
-    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     position: absolute;
@@ -162,7 +165,6 @@ h2 {
 }
 
 .right-text-box {
-    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     position: absolute;
@@ -262,5 +264,5 @@ h1 {
     color: white;
     font-size: 30px;
     -webkit-text-stroke-width: 0.6px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: #cc5200;
 }
